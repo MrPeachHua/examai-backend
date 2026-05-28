@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: yudao-module-system-server
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848
+      username: nacos
+      password: nacos
+      config:
+        enabled: false  # 禁用 Nacos 配置中心，使用本地配置
+      discovery:
+        enabled: true  # 启用 Nacos 服务发现
+        namespace: dev  # 使用 dev 命名空间

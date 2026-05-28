@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "YudaoServerApplication",
+      "request": "launch",
+      "mainClass": "cn.iocoder.yudao.server.YudaoServerApplication",
+      "projectName": "yudao-server",
+      "env": {
+        "spring.profiles.active": "local"
+      }
+    },
+    {
+      "type": "java",
+      "name": "SystemServerApplication",
+      "request": "launch",
+      "mainClass": "cn.iocoder.yudao.module.system.SystemServerApplication",
+      "projectName": "yudao-module-system-server",
+      "env": {
+        "spring.profiles.active": "local"
+      }
+    }
+  ]
+}
